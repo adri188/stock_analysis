@@ -1,22 +1,23 @@
 # stock_analysis
 ## Background
 
-Steve loves the workbook you prepared for him. At the click of a button, he can analyze an entire dataset. Now, to do a little more research for his parents, he wants to expand the dataset to include the entire stock market over the last few years. Although your code works well for a dozen stocks, it might not work as well for thousands of stocks. And if it does, it may take a long time to execute.
+In order to help Steve do a little more research for his parents prior code will be refactored to loop through data once so it can handle large amounts of data to analyze stock market behavior for a few years. Data and Efficiency of the code will be analyed and results presented below. 
 
-In this challenge, you’ll edit, or refactor, the Module 2 solution code to loop through all the data one time in order to collect the same information that you did in this module. Then, you’ll determine whether refactoring your code successfully made the VBA script run faster. Finally, you’ll present a written analysis that explains your findings.
 
 ## Results 
 
 ### Stock Performance 
 
 #### 2017
-<img width="232" alt="Screen Shot 2022-04-16 at 3 35 31 PM" src="https://user-images.githubusercontent.com/102937320/163693316-e0130e1d-0512-433e-995c-f10f2ac98d2f.png">
+
+![Screen Shot 2022-04-22 at 4 09 59 PM](https://user-images.githubusercontent.com/102937320/164815942-5a8440cd-ef2c-44ee-8836-35045bf4e571.png)
+
 
 #### 2018
-<img width="232" alt="Screen Shot 2022-04-16 at 3 33 59 PM" src="https://user-images.githubusercontent.com/102937320/163693280-b7e2388e-466c-4033-bed0-b98bfde7439f.png">
+![Screen Shot 2022-04-22 at 4 09 04 PM](https://user-images.githubusercontent.com/102937320/164815886-85bd393f-9c8c-4ede-b681-0a38294c376b.png)
 
-From 2017 to 2018 this Stocks had quite a turn around, with the exception of  RUN that showed growth. Only RUN and ENPH maintained a positive return rate . 
-DQ trippled in volume however had quite a negative turnaround from ~200% return in 2017 to -62.6% 
+From 2017 to 2018 this Stocks had quite a turn around, with the exception of  RUN that showed growth and was one of the 2 yielding and maintaining positive returns. 
+DQ trippled in volume however had quite a negative turnaround from ~200% return in 2017 to -62.6% . This Stock trend  is gathering strength to the downside and it is wise for Steve to spread his parents investments, and he will be able to utilize refactored code to look for more years and more stocks to make a sounder decision. 
 
 ### Code Performance
 
@@ -33,6 +34,6 @@ As seen on the images below Refactoring the original code made it real fast , on
 
 
 ## Summary
-' advantage and disadvantages of refactoring code and How do these pros and cons apply to refactoring the original VBA script?
-ReFactoring the code gives you the opportunity to go over ways to always improve the way you programm, also allows for avoiding wasting time trying to start everything from scratch when a similar solution is already developed and available. However when doing so one must make sure the code is well tagged and structured, and that you are able to follow a structure and a debugging/testing strategy that allows for the process to really be value added rather than consuming more time and effort. 
-Regarding the Challenge Example 
+ReFactoring the code gives you the opportunity to go over ways to always improve the way you programm, also allows for avoiding wasting time trying to start everything from scratch when a similar solution is already developed and available. However when doing so one must make sure the code is well tagged and structured, and that you are able to follow the logic and have a clear debugging/testing strategy that allows for the process to really be value added rather than consuming more time and effort. 
+Regarding the Challenge Example it was helpful having the initial code to get ahead on the logic . I tried to breakdown the requests and tested as I was making changes in order to properly debug. I was getting and overflow error, which I was able to figure out going through the logic and comparing with original code. 
+
